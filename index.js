@@ -16,3 +16,11 @@ function johnLennonFacts(arrayOfFacts){
   }
   return copyFacts
 }
+
+function iLoveTheBeatles(num){
+  var iHeartBeatles = []
+  do{
+    iHeartBeatles.push("I love the Beatles!")
+    num++
+  }while(num < 15)
+}
