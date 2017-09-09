@@ -4,4 +4,5 @@ function theBeatlesPlay(musician, instrument){
     var musicianAndInstrument = musician[i] + ' plays ' + 'instrument[i]'
     band.push(musicianAndInstrument)
   }
+  return band
 }
