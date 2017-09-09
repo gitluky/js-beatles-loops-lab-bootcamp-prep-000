@@ -13,6 +13,7 @@ function johnLennonFacts(arrayOfFacts){
   while (i < arrayOfFacts.length){
     var newString = arrayOfFacts[i] + '!!!'
     copyFacts.push(newString)
+    i++
   }
   return copyFacts
 }
